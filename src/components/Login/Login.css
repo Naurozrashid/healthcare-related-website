@@ -1,0 +1,29 @@
+.btn-regular{
+    background: #FF416C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* style={{ backgroundColor: 'goldenrod', width: '350px',height: '45px',border: '1px solid gray', borderRadius: '5px',cursor: 'pointer'}} */
+width: 20%;
+height: 55px;
+border: 1px solid gray;
+border-radius: 10px;
+color: white;
+font-weight:900;
+font-size: 2rem;
+margin-left: 520px;
+}
+
+.login{
+    border: none;
+    width: 800px;
+    box-shadow: 10px 10px 20px lightgray;
+}
+.f-size{
+font-weight:900;
+font-size: 3rem;
+color: #FF4B2B;
+}
+.f-sizeinput{
+font-weight:700;
+font-size: 2rem;
+}
