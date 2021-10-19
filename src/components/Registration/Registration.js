@@ -33,7 +33,7 @@ const Registration = () => {
     <input type="password" className="form-control mt-4" onBlur={handlePasswordChange} id="exampleInputPassword1" required/>
   </div>
   <div className="row mb-3 text-danger">{error}</div>
-  <button type="submit" className="btn-regular mt-5">Register</button>
+  <div className="d-flex justify-content-center"><button type="submit" className="btn brdr font-color5 mt-5">Register</button></div>
 </form>
 
             </div>
@@ -41,7 +41,7 @@ const Registration = () => {
             <h1>Already Register? <Link to="/login">Go to login</Link></h1>
                      
                 <button
-                    className="btn-regular ms-5 mt-5"
+                    className="btn brdr font-color5 ms-5 mt-5"
                     onClick={handleGoogleLogin}
                 ><i className="fab fa-google"></i> Google Sign In</button>
             </div>

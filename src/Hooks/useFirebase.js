@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useHistory  } from 'react-router-dom';
+import { useHistory ,useLocation } from 'react-router-dom';
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut,createUserWithEmailAndPassword,updateProfile,sendEmailVerification,signInWithEmailAndPassword } from "firebase/auth";
 import initializeAuthentication from '../Firebase/firebase.init';
 
@@ -7,6 +7,8 @@ initializeAuthentication();
 
 const useFirebase = () => {
     const history = useHistory();
+    const location = useLocation();
+    const redirect_uri = location.state?.from || '/home';
     const [name, setName] = useState('');
     const [user, setUser] = useState({});
     const [email, setEmail] = useState('');
@@ -22,6 +24,7 @@ const useFirebase = () => {
     }
 
     const handleNameChange = e => {
+      
         setName(e.target.value);
       }
       const handleEmailChange = e => {
@@ -46,6 +49,8 @@ const useFirebase = () => {
           setError('');
           verifyEmail();
           setUserName();
+          logOut();
+          history.push('/login');
         })
         .catch(error => {
           setError(error.message);
@@ -72,6 +77,8 @@ const useFirebase = () => {
              setError('email is not verified');
              return
          }
+          
+          history.push(redirect_uri);
           setError('');
         })
         .catch(error => {

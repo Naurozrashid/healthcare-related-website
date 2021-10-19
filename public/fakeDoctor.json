@@ -1,0 +1,92 @@
+[
+    {
+      "key": 1,
+      "doctor_name": "DR. Masudur Rahman Iqbal",
+      "designation": "BDS,BCS,Health,MS(Prosthoddontics)",
+      "visiting_hour": "4-6PM",
+      "address": "741,Dhanmandi Residential Area",
+      "Mobile": "01758898742,01817541005",
+      "img": "https://i.ibb.co/dkY6DyL/doc1.jpg"
+    },
+    {
+      "key": 2,
+      "doctor_name": "Prof. Dr. Md. Ruhul Amin",
+      "designation": "BDS DAND DDS MS",
+      "visiting_hour": "5-9PM",
+      "address": "17/A DIT Road East Rampura, Dhaka",
+      "Mobile": "0248321253",
+      "img": "https://i.ibb.co/wLLVZpK/doc2.jpg"
+    },
+    {
+      "key": 3,
+      "doctor_name": "Dr. Jannat Fatema",
+      "designation": "BDS BCS-health",
+      "visiting_hour": "7-9PM",
+      "address": "4/4 Block-D,Lalmatia,Dhaka",
+      "Mobile": "+880-2-9140105",
+      "img": "https://i.ibb.co/5kgDvzD/doc3.jpg"
+    },
+    {
+      "key": 4,
+      "doctor_name": "Dr. Mehejabin Morshed Mumu",
+      "designation": "BDS,BCS-health,Ph.D.(Plastic Surgery)",
+      "visiting_hour": "2-9PM",
+      "address": "Center For Dental Maxillofacial Surgery and Research",
+      "Mobile": "01819-208670",
+      "img": "https://i.ibb.co/7kPwMTr/doc5.jpg"
+    },
+    {
+      "key": 5,
+      "doctor_name": "Associate Prof. Dr. Aslam Al mehdi",
+      "designation": "M.S. (Oral & Maxillofacial Surgery/Medicine) Korea B.D.S   Bangladesh",
+      "visiting_hour": "6-9PM",
+      "address": "Banani, Dhaka-1213, Bangladesh",
+      "Mobile": "01885532656",
+      "img": "https://i.ibb.co/WKkPnvv/doc7.jpg"
+    },
+    {
+      "key": 6,
+      "doctor_name": "Asstt. Prof. Dr. Sk. Nazrul Islam",
+      "designation": "BDS (DU), PGT (BK), FAES (USA), MCPS (BD)",
+      "visiting_hour": "8-12PM",
+      "address": "Anannya Shopping Complex (3rd Floor)",
+      "Mobile": "+880131385027৪",
+      "img": "https://i.ibb.co/tcnJsVk/doc8.jpg"
+    },
+    {
+      "key": 7,
+      "doctor_name": "Assistant Prof. Dr.Bidya Shina Mim",
+      "designation": "BDS (Dhaka), MPH (BSMMU), MPhil (BSMMU)",
+      "visiting_hour": "8-10PM",
+      "address": "21/1 Zigatola (Near Zigatola Bus Stand), Dhanmondi, Dhaka",
+      "Mobile": "01711-957515",
+      "img": "https://i.ibb.co/3FJHr4X/doc6.jpg"
+    },
+    {
+      "key": 8,
+      "doctor_name": "Dr. Shamim Reza",
+      "designation": "Ex consultant, Islami bank specialised general hospital, Palton, Dhaka",
+      "visiting_hour": "5-10PM",
+      "address": "Happy Archede Shopping Mall(2rd Floor)",
+      "Mobile": "01819824102",
+      "img": "https://i.ibb.co/7xDzcvZ/doc9.jpg"
+    },
+    {
+      "key": 9,
+      "doctor_name": "Dr. M. Sheheda Rashid",
+      "designation": "BDS (Dhaka), BCS (Health), PGT (Perio),M.S. (Oral & Maxillofacial Surgery/Medicine",
+      "visiting_hour": "3-6PM",
+      "address": "Satmosjid Road, Dhanmondi, Dhaka-1207, Bangladesh",
+      "Mobile": "01552413972",
+      "img": "https://i.ibb.co/4mxkP9C/doc10.jpg"
+    },
+    {
+      "key": 10,
+      "doctor_name": "Dr. Roksana Begum",
+      "designation": "BDS, MS(0MS)",
+      "visiting_hour": "5-12PM",
+      "address": "Banglamotor, Ramna, Dhaka",
+      "Mobile": "01764198438",
+      "img": "https://i.ibb.co/DYDPfQm/doc11.jpg"
+    }
+  ]

@@ -1,11 +1,13 @@
 import React from 'react';
-import { Link ,useHistory} from 'react-router-dom';
+import { Link ,useHistory,useLocation} from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
   const { signInUsingGoogle,user,handleEmailChange,handlePasswordChange,handleLogin,error} = useAuth();
   const history = useHistory();
+  const location = useLocation();
+    const redirect_uri = location.state?.from || '/home';
 
 
 
@@ -13,7 +15,7 @@ const Login = () => {
     signInUsingGoogle()
         .then(result => {
           console.log(user);
-          history.push('./home')
+          history.push(redirect_uri)
         })
 }
 
@@ -32,7 +34,7 @@ const Login = () => {
     <input type="password" onBlur={handlePasswordChange} className="form-control mt-4" id="exampleInputPassword1" required/>
   </div>
   <div className="row mb-3 text-danger">{error}</div>
-  <button type="submit" className="btn-regular mt-5">Login</button>
+  <div className="d-flex justify-content-center"><button type="submit" className="btn brdr font-color5 mt-4 px-5">Login</button></div>
 </form>
 
             </div>
@@ -40,7 +42,7 @@ const Login = () => {
             <h1>New to MEDIKK? <Link to="/registration">Create Account</Link></h1>
                      
                 <button
-                    className="btn-regular ms-5 mt-5"
+                    className="btn brdr font-color5 ms-5 mt-5 px-5"
                     onClick={handleGoogleLogin}
                 ><i className="fab fa-google"></i> Google Sign In</button>
             </div>

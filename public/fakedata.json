@@ -1,0 +1,44 @@
+[
+    {
+      "key": 1,
+      "service_name": "Dental Implant",
+      "details": "Dental implant is a life me soluion for replacing missing or badly damage tooth. Absence of teeth, form, func�on and aesthe�c.In absence of teeth human face in bite and chewing. Result in malnutri�on and incomplete diagnosis. By the help of dental implant, you can regain your natural tooth performance. Enjoying    your favorite Food like meat, nuts etc.",
+      "price": "$150",
+      "img": "https://i.ibb.co/k940jpF/img-1.jpg"
+    },
+    {
+      "key": 2,
+      "service_name": "Root Canal Treatment",
+      "details": "A root canal is a treatment used to repair and save a tooth that is     badly decayed or infected. A tooths nerve and pulp can become irritated, inflamed, and infected due to deep decay; repeated dental procedures on a tooth; or large fillings, a crack, or chip in the tooth. It also can happen because of trauma to the face.",
+      "price": "$450",
+      "img": "https://i.ibb.co/3MdcQhy/img-2.jpg"
+    },
+    {
+      "key": 3,
+      "service_name": "Orthodontics Treatment",
+      "details": "Once placed on your teeth, braces place constant pressure on your teeth, and the force of the pressure helps move teeth into proper position. At each appointment, your orthodontist may tighten the archwires. In addition to braces, some patients may need to wear rubber bands or headgear. Patients wearing braces may notice their teeth feeling a little loose. This is normal and temporary; once the teeth are done moving this feeling will go away.",
+      "price": "$1000",
+      "img": "https://i.ibb.co/BcG1LRy/img-3.jpg"
+    },
+    {
+      "key": 4,
+      "service_name": "Dental Crown & Bridge",
+      "details": "A crown or cap is a dental restoration that covers the exposed surface of a tooth to strengthen it or improve its appearance. A bridge is a dental restoration to replace one or more missing teeth. It includes an artificial tooth or teeth which are fused to crowns on either side to provide support. Crowns and bridges are designed to match the natural shape and strength of the teeth and can be made up of different types of material.",
+      "price": "$2500",
+      "img": "https://i.ibb.co/7xc9JvR/img-4.jpg"
+    },
+    {
+      "key": 5,
+      "service_name": "Gum Treatment",
+      "details": "Gum (periodontal) diseases are treated in a variety of ways depending on the stage of disease, how you may have responded to earlier treatments, and your overall health.After a thorough periodontal evaluation, recommendations for treatment range from non-surgical therapies to surgical procedures. Non-surgical approaches control the growth of bacteria. Surgical procedures restore the tissues surrounding and supporting the teeth.",
+      "price": "$250",
+      "img": "https://i.ibb.co/DV3b9mf/img-5.jpg"
+    },
+    {
+      "key": 6,
+      "service_name": "Children Dentistry",
+      "details": "Children dentists are dedicated to the oral health of children from infancy through the teen years. They have the experience and qualifications to care for a child’s teeth, gums, and mouth throughout the various stages of childhood.",
+      "price": "$250",
+      "img": "https://i.ibb.co/KLT31t1/img-6.jpg"
+    }
+  ]

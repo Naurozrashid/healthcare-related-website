@@ -1,0 +1,65 @@
+.cover{
+    
+    background-image: url(../../hero-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+    
+}
+.padding{
+    margin-left: 2rem;
+    padding-top: 135px;
+    padding-bottom: 440px;
+    font-weight: 700;
+    /* color: white; */
+    
+}
+.margin{
+    margin-top: 50px;
+}
+.text-color-1{
+    color: #bc74a5;
+}
+.text-color-2{
+    color: #0e54ae;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.text-color{
+    color: #f6520a;
+    font-weight: 400;
+}
+.hedding-style{
+   font-weight: 700;
+   font-size: 3rem;
+   }
+.divider{
+    width: 300px;
+    height: 5px;
+    background-color: tomato;
+    display: inline-block;
+    text-align: center !important;
+    
+}
+.size{
+    font-size: 78px;
+    color: white;}
+
+.con{
+    
+    border: none;
+    height: 234px;
+    box-shadow: 10px 10px 20px lightgray;}
+
+.bg-extra{
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+iconSize{
+    font-size: 3rem;
+}

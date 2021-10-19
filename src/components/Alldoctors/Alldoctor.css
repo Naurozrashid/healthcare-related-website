@@ -1,0 +1,15 @@
+.font-color5{    
+     color: #00B2B6;    
+     border-radius: 1px solid #00B2B6;
+     } 
+.font-color5:hover{     color: white;    
+     background: #00B2B6;     
+     border-radius: 4px; }
+      
+.btn-brdr{     
+    color:white;     
+    background: #00B2B6; }
+    .brdr{
+        border: 1px solid #00B2B6 ;
+        border-radius: 4px;
+    }

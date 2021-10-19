@@ -10,7 +10,7 @@ const Notfound = () => {
             <h3 className="pb-4">The page you are looking for was moved,</h3>
                 <h3 className="pb-4">removed, renamed or might never existed.Go to Home Page</h3>
             <Link to="/home">
-            <button  className="fs-6 fw-bold btn-regular ms-0">Home</button>
+            <button  className="fs-6 fw-bold btn brdr font-color5 ms-0">Home</button>
         </Link>
         </div>
     );
