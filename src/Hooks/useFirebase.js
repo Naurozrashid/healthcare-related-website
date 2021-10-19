@@ -64,7 +64,7 @@ const useFirebase = () => {
       const verifyEmail = () => {
         sendEmailVerification(auth.currentUser)
           .then(result => {
-            console.log(result);
+            
           })
       }
 

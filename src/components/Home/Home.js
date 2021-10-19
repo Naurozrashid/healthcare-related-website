@@ -44,7 +44,7 @@ const Home = () => {
                 <div className="row">
                   <div className="col-lg-12 col-12 ms-4">
                    <div>
-                   <h1>Get in <span className="hedding-style text-white">touch</span></h1>
+                   <h1 className="mt-4">Get in <span className="hedding-style text-white">touch</span></h1>
                     <h5>Come and visit our quarters or simply send us an email anytime you want. We are open to all suggestions from our audience.</h5>
                    </div>
                   </div>
@@ -52,19 +52,19 @@ const Home = () => {
                     <div>
                     <div className="row g-4  align-items-center mt-5 justify-content-center">
                     <div className="col-lg-3 align-items-center con">
-                    <i class="fas fa-home size pb-4"></i>
+                    <i className="fas fa-home size pb-4"></i>
                     <h1>Address</h1>
                     <h5>27th Avenue,</h5>
                     <h5>Dhaka,Bangladesh</h5>
                     </div>
                     <div className="con col-lg-3">
-                    <i class="fas fa-phone size pb-4"></i>
+                    <i className="fas fa-phone size pb-4"></i>
                     <h1>Call us</h1>
                     <h5>0-800-777-2331</h5>
                     <h5>0-800-772-3466</h5>
                     </div>
                     <div className="con col-lg-3">
-                    <i class="fas fa-envelope-open-text size pb-4"></i>
+                    <i className="fas fa-envelope-open-text size pb-4"></i>
                     <h1>Call us</h1>
                     <h5>naurozrashid6@gmail.com</h5>
                     <h5>medikk@gmail.com</h5>

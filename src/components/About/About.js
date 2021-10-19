@@ -18,7 +18,7 @@ const About = () => {
                         The pursuit of excellence in all these areas is the result of our willingness, commitment, dedication and strong moral determination to provide the highest quality of care.
                     </p>
                     <h3 className="animate__animated animate__lightSpeedInRight">Working Hours</h3>
-                    <table class="table table-hover text-center">
+                    <table className="table table-hover text-center">
 
                         <thead>
                             <tr>
@@ -67,28 +67,28 @@ const About = () => {
                     <div className="d-flex flex-column flex-lg-row g-5 content">
                         <div className="col-lg-3 col-12 d-flex">
                             <div className="text-center ">
-                                <i class="fas fa-clinic-medical icon"></i>
+                                <i className="fas fa-clinic-medical icon"></i>
                                 <h1 className="text-followers fcolor">550</h1>
                                 <h4 className="text-followers2 fcolor">Hospital Rooms</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-12 d-flex">
                             <div className="text-center">
-                                <i class="fas fa-user-md icon"></i>
+                                <i className="fas fa-user-md icon"></i>
                                 <h1 className="text-followers fcolor">280</h1>
                                 <h4 className="text-followers2 fcolor">Specialist Doctors</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-12 d-flex">
                             <div className="text-center">
-                                <i class="fas fa-smile-beam icon"></i>
+                                <i className="fas fa-smile-beam icon"></i>
                                 <h1 className="text-followers fcolor">7892</h1>
                                 <h4 className="text-followers2 fcolor">Happy Patients</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-12 d-flex">
                             <div className="text-center">
-                                <i class="far fa-calendar-alt icon"></i>
+                                <i className="far fa-calendar-alt icon"></i>
                                 <h1 className="text-followers fcolor">20</h1>
                                 <h4 className="text-followers2 fcolor">Years of Experience</h4>
                             </div>

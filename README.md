@@ -1,5 +1,5 @@
 # Website
-[Click here to visit Live Healthy Website](https://medikk-nauroz.netlify.app/)
+[Click here to visit Medikk Website](https://medikk-nauroz.netlify.app/)
 ## Short Description
 Its a React website for providing Dental service via online. It also responsive for mobile devices. Here anyone can make appoinment to the Doctor for medication.
 ## Features and Functionality

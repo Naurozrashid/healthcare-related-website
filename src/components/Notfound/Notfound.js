@@ -5,7 +5,7 @@ import img from '../../error-404.jpg'
 const Notfound = () => {
     return (
         <div className="text-center">
-            <img src={img} alt="" />
+            <img className="img-fluid" src={img} alt="" />
             <h1 className="font-style">Oops! Page Not Found</h1>
             <h3 className="pb-4">The page you are looking for was moved,</h3>
                 <h3 className="pb-4">removed, renamed or might never existed.Go to Home Page</h3>

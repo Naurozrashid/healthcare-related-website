@@ -14,7 +14,7 @@ const Login = () => {
   const handleGoogleLogin = () => {
     signInUsingGoogle()
         .then(result => {
-          console.log(user);
+         
           history.push(redirect_uri)
         })
 }
