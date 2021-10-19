@@ -65,7 +65,7 @@ const Home = () => {
                     </div>
                     <div className="con col-lg-3">
                     <i className="fas fa-envelope-open-text size pb-4"></i>
-                    <h1>Call us</h1>
+                    <h1>Message us</h1>
                     <h5>naurozrashid6@gmail.com</h5>
                     <h5>medikk@gmail.com</h5>
                     </div>
